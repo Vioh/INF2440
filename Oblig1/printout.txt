@@ -1,0 +1,286 @@
+
+D:\Oblig1>javac Oblig1.java
+
+D:\Oblig1>java Oblig1 1000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time:   0.59ms
+- Sequential time  :   0.11ms (no mismatch!)
+- Parallel time    :   3.04ms (no mismatch!)
+Trial 2
+- Array.sort() time:   0.30ms
+- Sequential time  :   0.04ms (no mismatch!)
+- Parallel time    :   1.04ms (no mismatch!)
+Trial 3
+- Array.sort() time:   0.44ms
+- Sequential time  :   0.07ms (no mismatch!)
+- Parallel time    :   1.22ms (no mismatch!)
+Trial 4
+- Array.sort() time:   0.13ms
+- Sequential time  :   0.07ms (no mismatch!)
+- Parallel time    :   0.52ms (no mismatch!)
+Trial 5
+- Array.sort() time:   0.12ms
+- Sequential time  :   0.07ms (no mismatch!)
+- Parallel time    :   0.58ms (no mismatch!)
+Trial 6
+- Array.sort() time:   0.11ms
+- Sequential time  :   0.08ms (no mismatch!)
+- Parallel time    :   0.49ms (no mismatch!)
+Trial 7
+- Array.sort() time:   0.10ms
+- Sequential time  :   0.03ms (no mismatch!)
+- Parallel time    :   0.34ms (no mismatch!)
+Trial 8
+- Array.sort() time:   0.11ms
+- Sequential time  :   0.03ms (no mismatch!)
+- Parallel time    :   0.41ms (no mismatch!)
+Trial 9
+- Array.sort() time:   0.11ms
+- Sequential time  :   0.03ms (no mismatch!)
+- Parallel time    :   0.41ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=1000
+- Median Array.sort() = 0.12ms
+- Median sequential   = 0.07ms
+- Median parallel     = 0.52ms
+- Speed up            = 0.13
+
+
+D:\Oblig1>java Oblig1 10000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time:   4.23ms
+- Sequential time  :   0.59ms (no mismatch!)
+- Parallel time    :   2.54ms (no mismatch!)
+Trial 2
+- Array.sort() time:   0.92ms
+- Sequential time  :   0.38ms (no mismatch!)
+- Parallel time    :   1.18ms (no mismatch!)
+Trial 3
+- Array.sort() time:   1.49ms
+- Sequential time  :   0.33ms (no mismatch!)
+- Parallel time    :   0.70ms (no mismatch!)
+Trial 4
+- Array.sort() time:   1.34ms
+- Sequential time  :   0.34ms (no mismatch!)
+- Parallel time    :   0.90ms (no mismatch!)
+Trial 5
+- Array.sort() time:   1.37ms
+- Sequential time  :   0.23ms (no mismatch!)
+- Parallel time    :   0.80ms (no mismatch!)
+Trial 6
+- Array.sort() time:   0.96ms
+- Sequential time  :   0.21ms (no mismatch!)
+- Parallel time    :   0.77ms (no mismatch!)
+Trial 7
+- Array.sort() time:   0.98ms
+- Sequential time  :   0.34ms (no mismatch!)
+- Parallel time    :   0.78ms (no mismatch!)
+Trial 8
+- Array.sort() time:   0.93ms
+- Sequential time  :   0.11ms (no mismatch!)
+- Parallel time    :   0.86ms (no mismatch!)
+Trial 9
+- Array.sort() time:   1.28ms
+- Sequential time  :   0.05ms (no mismatch!)
+- Parallel time    :   0.98ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=10000
+- Median Array.sort() = 1.28ms
+- Median sequential   = 0.33ms
+- Median parallel     = 0.86ms
+- Speed up            = 0.39
+
+
+D:\Oblig1>java Oblig1 100000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time:  16.59ms
+- Sequential time  :   2.28ms (no mismatch!)
+- Parallel time    :   5.28ms (no mismatch!)
+Trial 2
+- Array.sort() time:  13.70ms
+- Sequential time  :   1.04ms (no mismatch!)
+- Parallel time    :   2.01ms (no mismatch!)
+Trial 3
+- Array.sort() time:  11.67ms
+- Sequential time  :   0.17ms (no mismatch!)
+- Parallel time    :   1.91ms (no mismatch!)
+Trial 4
+- Array.sort() time:   9.89ms
+- Sequential time  :   0.16ms (no mismatch!)
+- Parallel time    :   1.10ms (no mismatch!)
+Trial 5
+- Array.sort() time:   8.72ms
+- Sequential time  :   0.12ms (no mismatch!)
+- Parallel time    :   1.00ms (no mismatch!)
+Trial 6
+- Array.sort() time:   8.06ms
+- Sequential time  :   0.05ms (no mismatch!)
+- Parallel time    :   0.41ms (no mismatch!)
+Trial 7
+- Array.sort() time:   6.38ms
+- Sequential time  :   0.05ms (no mismatch!)
+- Parallel time    :   0.37ms (no mismatch!)
+Trial 8
+- Array.sort() time:   6.35ms
+- Sequential time  :   0.05ms (no mismatch!)
+- Parallel time    :   0.37ms (no mismatch!)
+Trial 9
+- Array.sort() time:   6.38ms
+- Sequential time  :   0.05ms (no mismatch!)
+- Parallel time    :   0.41ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=100000
+- Median Array.sort() = 8.72ms
+- Median sequential   = 0.12ms
+- Median parallel     = 1.00ms
+- Speed up            = 0.12
+
+
+D:\Oblig1>java Oblig1 1000000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time: 151.20ms
+- Sequential time  :   5.40ms (no mismatch!)
+- Parallel time    :   9.99ms (no mismatch!)
+Trial 2
+- Array.sort() time:  75.52ms
+- Sequential time  :   0.81ms (no mismatch!)
+- Parallel time    :  20.02ms (no mismatch!)
+Trial 3
+- Array.sort() time:  75.70ms
+- Sequential time  :   0.49ms (no mismatch!)
+- Parallel time    :   0.90ms (no mismatch!)
+Trial 4
+- Array.sort() time:  75.57ms
+- Sequential time  :   0.51ms (no mismatch!)
+- Parallel time    :   0.84ms (no mismatch!)
+Trial 5
+- Array.sort() time:  75.94ms
+- Sequential time  :   0.50ms (no mismatch!)
+- Parallel time    :   0.75ms (no mismatch!)
+Trial 6
+- Array.sort() time:  77.73ms
+- Sequential time  :   0.47ms (no mismatch!)
+- Parallel time    :   0.76ms (no mismatch!)
+Trial 7
+- Array.sort() time:  75.43ms
+- Sequential time  :   0.48ms (no mismatch!)
+- Parallel time    :   0.72ms (no mismatch!)
+Trial 8
+- Array.sort() time:  76.04ms
+- Sequential time  :   0.47ms (no mismatch!)
+- Parallel time    :   0.74ms (no mismatch!)
+Trial 9
+- Array.sort() time:  76.00ms
+- Sequential time  :   0.55ms (no mismatch!)
+- Parallel time    :   0.73ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=1000000
+- Median Array.sort() = 75.94ms
+- Median sequential   = 0.50ms
+- Median parallel     = 0.76ms
+- Speed up            = 0.66
+
+
+D:\Oblig1>java Oblig1 10000000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time: 982.40ms
+- Sequential time  :  11.25ms (no mismatch!)
+- Parallel time    :  17.13ms (no mismatch!)
+Trial 2
+- Array.sort() time: 884.39ms
+- Sequential time  :  13.34ms (no mismatch!)
+- Parallel time    :  30.45ms (no mismatch!)
+Trial 3
+- Array.sort() time: 885.58ms
+- Sequential time  :   4.75ms (no mismatch!)
+- Parallel time    :   3.27ms (no mismatch!)
+Trial 4
+- Array.sort() time: 885.15ms
+- Sequential time  :   4.66ms (no mismatch!)
+- Parallel time    :   3.01ms (no mismatch!)
+Trial 5
+- Array.sort() time: 885.28ms
+- Sequential time  :   5.07ms (no mismatch!)
+- Parallel time    :   3.10ms (no mismatch!)
+Trial 6
+- Array.sort() time: 886.21ms
+- Sequential time  :   4.63ms (no mismatch!)
+- Parallel time    :   3.10ms (no mismatch!)
+Trial 7
+- Array.sort() time: 883.22ms
+- Sequential time  :   4.88ms (no mismatch!)
+- Parallel time    :   3.21ms (no mismatch!)
+Trial 8
+- Array.sort() time: 883.62ms
+- Sequential time  :   4.68ms (no mismatch!)
+- Parallel time    :   3.20ms (no mismatch!)
+Trial 9
+- Array.sort() time: 883.14ms
+- Sequential time  :   4.74ms (no mismatch!)
+- Parallel time    :   3.05ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=10000000
+- Median Array.sort() = 885.15ms
+- Median sequential   = 4.75ms
+- Median parallel     = 3.20ms
+- Speed up            = 1.48
+
+
+D:\Oblig1>java Oblig1 100000000 0
+Please wait! Report will be printed out once execution is done.
+Trial 1
+- Array.sort() time: 10249.55ms
+- Sequential time  :  66.42ms (no mismatch!)
+- Parallel time    :  98.11ms (no mismatch!)
+Trial 2
+- Array.sort() time: 10151.21ms
+- Sequential time  :  85.38ms (no mismatch!)
+- Parallel time    : 109.09ms (no mismatch!)
+Trial 3
+- Array.sort() time: 10205.91ms
+- Sequential time  :  49.31ms (no mismatch!)
+- Parallel time    :  96.46ms (no mismatch!)
+Trial 4
+- Array.sort() time: 10155.87ms
+- Sequential time  :  49.53ms (no mismatch!)
+- Parallel time    :  25.93ms (no mismatch!)
+Trial 5
+- Array.sort() time: 10157.40ms
+- Sequential time  :  48.92ms (no mismatch!)
+- Parallel time    :  25.76ms (no mismatch!)
+Trial 6
+- Array.sort() time: 10148.17ms
+- Sequential time  :  48.84ms (no mismatch!)
+- Parallel time    :  26.02ms (no mismatch!)
+Trial 7
+- Array.sort() time: 10213.65ms
+- Sequential time  :  49.55ms (no mismatch!)
+- Parallel time    :  26.15ms (no mismatch!)
+Trial 8
+- Array.sort() time: 10155.33ms
+- Sequential time  :  49.06ms (no mismatch!)
+- Parallel time    :  25.84ms (no mismatch!)
+Trial 9
+- Array.sort() time: 10152.00ms
+- Sequential time  :  49.25ms (no mismatch!)
+- Parallel time    :  25.93ms (no mismatch!)
+
+Overall statistics:
+- #cores=4, #threads=4, n=100000000
+- Median Array.sort() = 10155.87ms
+- Median sequential   = 49.31ms
+- Median parallel     = 26.02ms
+- Speed up            = 1.89
+
+
+D:\Oblig1>
