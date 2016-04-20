@@ -1,0 +1,37 @@
+D:\Oblig3>javac Oblig3.java
+
+D:\Oblig3>java Oblig3 100000000
+N = 100000000, #threads = 4, #tests = 5
+Median time for Seq (ms): 1334.512128
+Median time for Par (ms): 718.809954
+Speedup: 1.86
+
+D:\Oblig3>java Oblig3 10000000
+N = 10000000, #threads = 4, #tests = 5
+Median time for Seq (ms): 128.355486
+Median time for Par (ms): 80.243134
+Speedup: 1.60
+
+D:\Oblig3>java Oblig3 1000000
+N = 1000000, #threads = 4, #tests = 5
+Median time for Seq (ms): 19.692434
+Median time for Par (ms): 7.522841
+Speedup: 2.62
+
+D:\Oblig3>java Oblig3 100000
+N = 100000, #threads = 4, #tests = 5
+Median time for Seq (ms): 1.853151
+Median time for Par (ms): 6.025876
+Speedup: 0.31
+
+D:\Oblig3>java Oblig3 10000
+N = 10000, #threads = 4, #tests = 5
+Median time for Seq (ms): 0.339459
+Median time for Par (ms): 2.093015
+Speedup: 0.16
+
+D:\Oblig3>java Oblig3 1000
+N = 1000, #threads = 4, #tests = 5
+Median time for Seq (ms): 0.108718
+Median time for Par (ms): 0.9108
+Speedup: 0.12
