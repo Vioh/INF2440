@@ -1,0 +1,75 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+D:\Oblig4syhd>make
+javac -d bin Oblig4.java
+
+D:\Oblig4syhd>make run
+java -cp bin -Xmx2500m Oblig4
+================================================
+Generating test for n = 100000000.....
+n = 100000000, #threads = 4, #tests = 3
+Total number of points: 13572
+Median time for Seq (ms): 3268.162352
+Median time for Par (ms): 2285.169658
+Speedup: 1.43
+
+================================================
+Generating test for n = 10000000.....
+n = 10000000, #threads = 4, #tests = 3
+Total number of points: 4207
+Median time for Seq (ms): 328.629524
+Median time for Par (ms): 229.090782
+Speedup: 1.43
+
+================================================
+Generating test for n = 1000000.....
+n = 1000000, #threads = 4, #tests = 3
+Total number of points: 1314
+Median time for Seq (ms): 34.096723
+Median time for Par (ms): 21.508883
+Speedup: 1.59
+
+================================================
+Generating test for n = 100000.....
+n = 100000, #threads = 4, #tests = 3
+Total number of points: 440
+Median time for Seq (ms): 3.062
+Median time for Par (ms): 2.249268
+Speedup: 1.36
+
+================================================
+Generating test for n = 10000.....
+n = 10000, #threads = 4, #tests = 3
+Total number of points: 151
+Median time for Seq (ms): 0.398763
+Median time for Par (ms): 1.021047
+Speedup: 0.39
+
+================================================
+Generating test for n = 1000.....
+n = 1000, #threads = 4, #tests = 3
+Total number of points: 46
+Median time for Seq (ms): 0.058541
+Median time for Par (ms): 0.939698
+Speedup: 0.06
+
+================================================
+Generating test for n = 100.....
+[5->93->95->65->1->80->78->48->94->10->99->16->55->23->50->31->60->73]
+n = 100, #threads = 4, #tests = 3
+Total number of points: 18
+Median time for Seq (ms): 0.006842
+Median time for Par (ms): 0.874314
+Speedup: 0.01
+
+================================================
+Generating test for n = 10.....
+[5->7->1->8->0]
+n = 10, #threads = 4, #tests = 3
+Total number of points: 5
+Median time for Seq (ms): 7.6E-4
+Median time for Par (ms): 2.546535
+Speedup: 0.00
+
+D:\Oblig4syhd>
